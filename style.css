@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Rubik", Arial, sans-serif; /* Apply the Rubik font */
+  }
+  
+  .navbar {
+    position: fixed; /* Make the navbar fixed */
+    top: 0; /* Position it at the top */
+    width: 100%; /* Ensure it spans the full width */
+    z-index: 1000; /* Ensure it appears above other content */
+    background-color: #fff; /* Adjust the background color as needed */
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 50px;
+  }
+  
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%; /* Adjust the max width as needed */
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: #037D75;
+  }
+  
+  
+  
+  .nav-logo h2 {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px; /* Space between each link */
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #4f5665;
+    font-size: 18px;
+    font-weight: 540;
+  }
+  
+  
+  
+  
+  
+  .signup-btn {
+    color: #fff;
+    border: 1px solid #FF7C02;
+    width: 330px;
+    background: #FF7C02;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 7px;
+
+  }
+  
+  body {
+    padding-top: 300px; /* Add padding to avoid content being hidden behind the navbar */
+  }
+
+
+
+  /*-----hero section----*/
+  .hero-section {
+    padding: px; /* Add padding value */
+}
+
+.hero-container {
+    display: flex;
+    width: 100%;
+}
+
+.hero-row1 {
+    margin-left:  80px;
+    margin-bottom: 50px;
+    
+}
+
+.hero-row1-header h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.5;
+    width: 80%;
+    margin-bottom: 60px;
+}
+
+.hero-row1-header p {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    width: 80%;
+}
+
+.hero-buttons a {
+    display: inline-block;
+    width: 200px;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.hero-button1 {
+    border: 2px solid #FF7C02;
+    background: #FF7C02;
+    color: #fff;
+}
+
+.hero-button2 {
+    border: 2px solid #037D75;
+    background: transparent;
+    color: #037D75;
+}
+
+.hero-row2 {
+    position: relative;
+    width: 100%; /* Ensure it takes full width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+}
+
+.hero-row2 img {
+    position: absolute;
+}
+
+.hero-image1 {
+    z-index: -100;
+    width: 480px;
+}
+
+.hero-image2 {
+    z-index: 1;
+    top: -270px;
+    width: 650px;
+}
+
+
+  
