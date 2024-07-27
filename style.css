@@ -153,6 +153,140 @@
     top: -270px;
     width: 650px;
 }
+.business {
+    color: #037D75;
+}
+
+
+/*-----Coaching Solution---*/
+
+
+.coaching-solution {
+    background: #dbfcfa;
+    padding: 40px; /* Add some padding for better spacing */
+}
+
+.coaching-solution-header {
+    text-align: center;
+    padding-top: 90px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.solutions {
+    color: #037D75;
+}
+
+.coaching-solution-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
+}
+
+.coaching-solution-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #000000;
+    padding: 20px; /* Add padding to create space inside the box */
+    width: 30%; /* Ensure the rows are of equal width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    text-align: center;
+    height: 350px;
+    border-radius: 9px; /* Center text alignment */
+    background: #fff;
+}
+
+.coaching-solution-row img {
+    margin-bottom: 20px;
+    max-width: 100%; /* Ensure the image scales within the container */
+    height: auto; /* Maintain the aspect ratio of the image */
+}
+
+.coaching-solution-row h2 {
+    margin-bottom: 10px;
+    color: #037D75;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.coaching-solution-row p {
+    width: 90%; /* Ensure text is not too wide */
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.5;
+    margin-top: 40px;
+
+}
+.coaching-solution-container2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    padding-right: 40px;
+    margin-top: 30px;
+    
+
+}
+
+
+
+
+/*------Transformation section----*/
+
+
+.transformation-section {
+    background: #fff;
+    padding: 40px;
+}
+.transformation-container {
+    background: #037D75;
+    width: 90%;
+}
+.transformation-header {
+    color: #fff;
+    font-size: 32px;
+    width: 40%;
+    text-align: center;
+    margin-left: 350px;
+    padding-top: 90px;
+}
+.transformation-container2 {
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.transformation-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    width: 30%;
+    box-sizing: border-box;
+    text-align: start;
+}
+.transformation-row img {
+    width: 90px;
+    margin-bottom: 20px;
+
+}
+.transformation-row h2 {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 700;
+}
+.transformation-row p {
+    width: 80%;
+    line-height: 1.8;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+
+
 
 
   
